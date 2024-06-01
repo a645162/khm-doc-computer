@@ -1,0 +1,12 @@
+version: "3"
+services:
+  mkdocs_doc_computer:
+    image: squidfunk/mkdocs-material
+    restart: always
+    container_name: mkdocs_guide
+    network_mode: bridge
+    tty: true
+    volumes:
+      - /site:/docs
+    ports:
+      - 20000:8000

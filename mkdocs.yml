@@ -1,0 +1,88 @@
+site_name: "KHM Computer Wiki"
+# site_url: 
+site_author: Haomin Kong
+site_description: >-
+  KHM使用Computer的一些经验。
+
+# Copyright
+copyright: Haomin Kong
+
+theme:
+  name: material
+  favicon: Assets/favicon/favicon.ico
+  logo: Assets/favicon/favicon.png
+  features:
+    # 代码区-复制按钮
+    - content.code.copy
+    # 代码区-选择行
+    - content.code.select
+    # 代码区-注释
+    - content.code.annotate
+    # 激活相同标签，比如同一页面语言全部切换至"C++"
+    - content.tabs.link
+    # 脚注
+    - content.footnote.tooltips
+
+markdown_extensions:
+  # MD的警告/提示
+  # https://squidfunk.github.io/mkdocs-material/reference/admonitions/
+  - admonition
+  - pymdownx.details
+
+  # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/
+  # 代码块代码高亮
+  - pymdownx.highlight:
+      # 对代码块显示行号
+      anchor_linenums: true
+      line_spans: __span
+      # 显示代码所属语言
+      pygments_lang_class: true
+  # 文内代码的高亮显示
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+  # https://squidfunk.github.io/mkdocs-material/reference/formatting/
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+  # 下面两个都是用于支持Tab
+  # https://squidfunk.github.io/mkdocs-material/reference/content-tabs/
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  # 表格
+  # https://squidfunk.github.io/mkdocs-material/reference/data-tables/
+  - tables
+
+  # 脚注
+  # https://squidfunk.github.io/mkdocs-material/reference/footnotes/
+  - footnotes
+
+  # 页面内表格(九宫格)
+  # https://squidfunk.github.io/mkdocs-material/reference/grids/
+  - attr_list
+  - md_in_html
+
+  # Emoji
+  # https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+  # 列表
+  # https://squidfunk.github.io/mkdocs-material/reference/lists/
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+  # 提示
+  # https://squidfunk.github.io/mkdocs-material/reference/tooltips/
+  - abbr
+  - attr_list
+  - pymdownx.snippets
+  
