@@ -1,5 +1,5 @@
 site_name: "KHM Computer Wiki"
-# site_url: 
+site_url: https://a645162.github.io/khm-doc-computer/
 site_author: Haomin Kong
 site_description: >-
   KHM使用Computer的一些经验。
@@ -74,8 +74,8 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-  # 列表
-  # https://squidfunk.github.io/mkdocs-material/reference/lists/
+        # 列表
+      # https://squidfunk.github.io/mkdocs-material/reference/lists/
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
