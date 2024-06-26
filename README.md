@@ -2,6 +2,8 @@
 
 Computer Document by Haomin Kong
 
+https://github.com/a645162/khm-doc-computer
+
 主页：
 https://a645162.github.io/khm-doc-computer/
 
