@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+ 
+[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Runtime Environment]
+[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Runtime Environment\17]
+"JavaHome"="C:\\Users\\konghaomin\\.jdks\\jbr-17.0.9"
+"RuntimeLib"="C:\\Users\\konghaomin\\.jdks\\jbr-17.0.9\\bin\\server\\jvm.dll"

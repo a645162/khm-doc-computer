@@ -13,6 +13,12 @@ fcitx5版本号直接从10开头了。
 yay -S fcitx5-sogou fcitx5-pinyin-sougou
 ```
 
+## 添加输入法
+
+```
+fcitx5-configtool
+```
+
 ## Ref
 
 https://www.cnblogs.com/klelee/p/archlinux-fcitx5.html
