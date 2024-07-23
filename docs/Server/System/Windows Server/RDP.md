@@ -31,3 +31,9 @@ https://blog.csdn.net/michaelehome/article/details/79555799
 ## Multi-User Open RDP
 
 https://blog.csdn.net/m0_49113674/article/details/109908233
+
+## WebVpn
+
+如果学校的网页版WebVpn无法连接，需要将`Authentication Mode`选择为`GUI Authentication Only`。
+
+![Webvpn RDP](Images/WEB_VPN_RDP_CONFIG.png)
