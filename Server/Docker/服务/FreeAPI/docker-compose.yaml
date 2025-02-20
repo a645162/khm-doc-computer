@@ -1,0 +1,25 @@
+services:
+  qwen-free-api:
+    container_name: qwen-free-api
+    image: vinlic/qwen-free-api:latest
+    restart: always
+    ports:
+      - "8011:8000"
+    environment:
+      - TZ=Asia/Shanghai
+  kimi-free-api:
+    container_name: kimi-free-api
+    image: vinlic/kimi-free-api:latest
+    restart: always
+    ports:
+      - "8012:8000"
+    environment:
+      - TZ=Asia/Shanghai
+  glm-free-api:
+    container_name: glm-free-api
+    image: vinlic/glm-free-api:latest
+    restart: always
+    ports:
+      - "8013:8000"
+    environment:
+      - TZ=Asia/Shanghai
